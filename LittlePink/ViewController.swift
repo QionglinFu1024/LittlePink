@@ -11,9 +11,23 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        DispatchQueue.main.async {
+//            UITabBarItem.appearance().badgeValue = "1st";
+            self.tabBarItem.badgeValue = "90"
+//            self.tabBarController?.tabBar.items?[0].badgeValue = "99+"
+        }
+        
+//        UITabBarItem.appearance().titlePositionAdjustment = UIOffset(horizontal: 0, vertical: -16)
+        
+        loadData()
     }
 
 
 }
 
+extension ViewController {
+    func loadData(){
+        print("hhhhh")
+    }
+}
