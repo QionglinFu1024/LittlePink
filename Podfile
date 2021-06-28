@@ -1,5 +1,5 @@
 # Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+ platform :ios, '13.0'
 
 target 'LittlePink' do
   # Comment the next line if you don't want to use dynamic frameworks
@@ -8,4 +8,5 @@ target 'LittlePink' do
   # Pods for LittlePink
   pod 'XLPagerTabStrip', '~> 9.0'
 
+  pod 'CHTCollectionViewWaterfallLayout/Swift'
 end
